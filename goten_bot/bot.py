@@ -1,3 +1,6 @@
+#Runs all code here; and uses discord import to go to Discord 
+#Responses import for responses
+
 import discord
 import responses
 

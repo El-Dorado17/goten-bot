@@ -1,3 +1,5 @@
+#Exported to bot so responses can be said if correct words are passed in
+
 import random
 
 def handle_response(message) -> str:
