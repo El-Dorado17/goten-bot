@@ -2,7 +2,7 @@
 #Responses import for responses
 
 import discord
-import responses
+import responses #Not resolved? But responses work
 
 async def send_message(message, user_message, is_private):
     try:
@@ -13,7 +13,7 @@ async def send_message(message, user_message, is_private):
 
 
 def run_discord_bot():
-    TOKEN = 'INSERT-TOKEN-HERE'
+    TOKEN = 'INSERT-TOKEN-HERE' #Token so bot knows what server to go to 
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
