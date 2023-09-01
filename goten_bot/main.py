@@ -1,3 +1,5 @@
+#This section is where we start to serve - Goes to bot.py to run 
+
 import bot
 
 
