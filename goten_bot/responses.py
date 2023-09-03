@@ -2,7 +2,7 @@
 
 import random
 
-def handle_response(message) -> str:
+def handle_response(message) -> str: #message: str
     p_message = message.lower()
 
     if p_message == 'hello':
